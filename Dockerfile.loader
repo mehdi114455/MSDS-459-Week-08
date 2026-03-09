@@ -1,0 +1,11 @@
+FROM python:3.11-slim
+
+WORKDIR /app
+
+COPY requirements.txt .
+
+# make pip more stable for slow networks
+RUN pip install --upgrade pip \
+ && pip install --no-cache-dir --default-timeout=200 -r requirements.txt
+
+COPY scripts /app/scripts

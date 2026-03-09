@@ -1,0 +1,37 @@
+[
+  {
+    "company": "Pfizer Inc.",
+    "ticker": "PFE",
+    "error": "GDELT request failed after 3 attempts: 429 Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22Pfizer+Inc.%22+OR+%22Pfizer%22%29+AND+%28health+OR+FDA+OR+drug+OR+device+OR+recall+OR+approval%29&mode=ArtList&format=json&maxrecords=25&startdatetime=20260222211520&enddatetime=20260308211520&sort=DateDesc"
+  },
+  {
+    "company": "AbbVie Inc.",
+    "ticker": "ABBV",
+    "error": "GDELT request failed after 3 attempts: 429 Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22AbbVie+Inc.%22+OR+%22AbbVie%22%29+AND+%28health+OR+FDA+OR+drug+OR+device+OR+recall+OR+approval%29&mode=ArtList&format=json&maxrecords=25&startdatetime=20260222211520&enddatetime=20260308211520&sort=DateDesc"
+  },
+  {
+    "company": "Bristol Myers Squibb Company",
+    "ticker": "BMY",
+    "error": "GDELT request failed after 3 attempts: 429 Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%22Bristol+Myers+Squibb+Company%22+AND+%28health+OR+FDA+OR+drug+OR+device+OR+recall+OR+approval%29&mode=ArtList&format=json&maxrecords=25&startdatetime=20260222211520&enddatetime=20260308211520&sort=DateDesc"
+  },
+  {
+    "company": "Amgen Inc.",
+    "ticker": "AMGN",
+    "error": "GDELT request failed after 3 attempts: 429 Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22Amgen+Inc.%22+OR+%22Amgen%22%29+AND+%28health+OR+FDA+OR+drug+OR+device+OR+recall+OR+approval%29&mode=ArtList&format=json&maxrecords=25&startdatetime=20260222211520&enddatetime=20260308211520&sort=DateDesc"
+  },
+  {
+    "company": "Vertex Pharmaceuticals Incorporated",
+    "ticker": "VRTX",
+    "error": "GDELT request failed after 3 attempts: 429 Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22Vertex+Pharmaceuticals+Incorporated%22+OR+%22Vertex%22%29+AND+%28health+OR+FDA+OR+drug+OR+device+OR+recall+OR+approval%29&mode=ArtList&format=json&maxrecords=25&startdatetime=20260222211520&enddatetime=20260308211520&sort=DateDesc"
+  },
+  {
+    "company": "Stryker Corporation",
+    "ticker": "SYK",
+    "error": "GDELT request failed after 3 attempts: 429 Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22Stryker+Corporation%22+OR+%22Stryker%22%29+AND+%28health+OR+FDA+OR+drug+OR+device+OR+recall+OR+approval%29&mode=ArtList&format=json&maxrecords=25&startdatetime=20260222211520&enddatetime=20260308211520&sort=DateDesc"
+  },
+  {
+    "company": "CVS Health Corporation",
+    "ticker": "CVS",
+    "error": "GDELT request failed after 3 attempts: 429 Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%22CVS+Health+Corporation%22+AND+%28health+OR+FDA+OR+drug+OR+device+OR+recall+OR+approval%29&mode=ArtList&format=json&maxrecords=25&startdatetime=20260222211520&enddatetime=20260308211520&sort=DateDesc"
+  }
+]

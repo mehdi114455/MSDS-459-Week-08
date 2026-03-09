@@ -1,0 +1,55 @@
+version: "3.9"
+
+services:
+  postgres:
+    image: postgres:16
+    container_name: healthcare_postgres
+    environment:
+      POSTGRES_USER: kguser
+      POSTGRES_PASSWORD: kgpass
+      POSTGRES_DB: healthcare_kg
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./sql:/sql
+      - ./data:/data
+
+  memgraph:
+    image: memgraph/memgraph:latest
+    container_name: healthcare_memgraph
+    ports:
+      - "7687:7687"
+      - "7444:7444"
+    volumes:
+      - memgraph_data:/var/lib/memgraph
+      - ./cypher:/cypher
+      - ./data:/data
+
+  memgraph_lab:
+    image: memgraph/lab:latest
+    container_name: healthcare_memgraph_lab
+    ports:
+      - "3000:3000"
+    depends_on:
+      - memgraph
+
+  loader:
+    build:
+      context: .
+      dockerfile: Dockerfile.loader
+    container_name: healthcare_loader
+    depends_on:
+      - postgres
+      - memgraph
+    volumes:
+      - ./scripts:/app/scripts
+      - ./data:/app/data
+      - ./sql:/app/sql
+      - ./cypher:/app/cypher
+    working_dir: /app
+    command: tail -f /dev/null
+
+volumes:
+  postgres_data:
+  memgraph_data:

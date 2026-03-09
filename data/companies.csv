@@ -1,0 +1,19 @@
+company_name,ticker,exchange,sector,subsector,country,wikidata_id,aliases
+Pfizer Inc.,PFE,NYSE,Healthcare,Pharmaceuticals,USA,,Pfizer
+Johnson & Johnson,JNJ,NYSE,Healthcare,Pharmaceuticals/Medical Devices,USA,,J&J; Johnson and Johnson
+"Merck & Co., Inc.",MRK,NYSE,Healthcare,Pharmaceuticals,USA,,Merck; Merck & Co
+AbbVie Inc.,ABBV,NYSE,Healthcare,Biopharmaceuticals,USA,,AbbVie
+Bristol Myers Squibb Company,BMY,NYSE,Healthcare,Pharmaceuticals,USA,,BMS; Bristol-Myers Squibb
+Eli Lilly and Company,LLY,NYSE,Healthcare,Pharmaceuticals,USA,,Eli Lilly; Lilly
+"Moderna, Inc.",MRNA,NASDAQ,Healthcare,Biotechnology,USA,,Moderna
+Amgen Inc.,AMGN,NASDAQ,Healthcare,Biotechnology,USA,,Amgen
+"Gilead Sciences, Inc.",GILD,NASDAQ,Healthcare,Biotechnology,USA,,Gilead
+"Regeneron Pharmaceuticals, Inc.",REGN,NASDAQ,Healthcare,Biotechnology,USA,,Regeneron
+Biogen Inc.,BIIB,NASDAQ,Healthcare,Biotechnology,USA,,Biogen
+Vertex Pharmaceuticals Incorporated,VRTX,NASDAQ,Healthcare,Biotechnology,USA,,Vertex
+Medtronic plc,MDT,NYSE,Healthcare,Medical Devices,Ireland/USA,,Medtronic
+Boston Scientific Corporation,BSX,NYSE,Healthcare,Medical Devices,USA,,Boston Scientific
+Stryker Corporation,SYK,NYSE,Healthcare,Medical Devices,USA,,Stryker
+UnitedHealth Group Incorporated,UNH,NYSE,Healthcare,Managed Health Care,USA,,UnitedHealth; United Health
+CVS Health Corporation,CVS,NYSE,Healthcare,Health Care Services/Retail Pharmacy,USA,,CVS
+The Cigna Group,CI,NYSE,Healthcare,Managed Health Care,USA,,Cigna
