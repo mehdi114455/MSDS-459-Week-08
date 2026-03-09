@@ -16,7 +16,6 @@ The dataset integrates:
 - GDELT news articles  
 - Historical stock price data  
 
----
 
 ## Repository Structure
     .
@@ -51,8 +50,6 @@ The dataset integrates:
         └── 02_queries.sql
 
 
----
-
 ## Prerequisites
 
 Install:
@@ -84,7 +81,6 @@ This starts:
 - Memgraph Lab UI (healthcare_memgraph_lab)
 - Loader container (healthcare_loader)
 
----
 
 ## Load Data into PostgreSQL
 
@@ -122,7 +118,6 @@ Host: memgraph
 Port: 7687
 Authentication: None
 
----
 ## Sample Queries
 
 ### PostgreSQL Queries
