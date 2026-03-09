@@ -58,7 +58,6 @@ Install:
 → https://www.docker.com/products/docker-desktop/
 
 Check installation:
-
 ```bash
 docker --version
 docker compose version
@@ -72,9 +71,9 @@ cd msds459-healthcare-kg
 ```
 
 ## Start Docker Environment
-
+```bash
 docker compose up -d
-
+```
 This starts:
 
 - Memgraph container (healthcare_memgraph)
